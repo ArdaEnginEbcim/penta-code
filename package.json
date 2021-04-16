@@ -1,0 +1,53 @@
+{
+    "name": "zeppelin",
+    "version": "0.0.1",
+    "description": "Zeppelin Bot",
+    "main": "meska.js",
+    "license": "MIT",
+    "author": {
+        "name": "Meska",
+        "email": "ardaengnebcim@gmail.com"
+    },
+    "engines": {
+        "node": ">=12"
+    },
+    "scripts": {
+        "zeppelin": "node zeppelin.js",
+        "server": "node bin/server.js",
+        "i": "npm install"
+    },
+    "keywords": [
+        "meska"
+    ],
+    "nodemonConfig": {
+        "ignore": [
+            "croxydb/*"
+        ],
+        "delay": "2500"
+    },
+    "dependencies": {
+        "chalk": "^4.1.0",
+        "chartjs-node-canvas": "^3.1.0",
+        "cookie-parser": "^1.4.5",
+        "croxydb": "^0.0.7",
+        "debug": "^2.6.9",
+        "discord-slash-commands": "https://github.com/ShadeDevelopment/discord-slash-commands",
+        "discord-slash-commands-client": "^1.1.1",
+        "discord.js": "^12.5.1",
+        "dotenv": "^8.2.0",
+        "ejs": "^3.1.6",
+        "express": "^4.17.1",
+        "fs": "^0.0.2",
+        "http-errors": "^1.7.2",
+        "i18next": "^20.2.1",
+        "i18next-fs-backend": "^1.1.1",
+        "meska.js": "^1.0.1",
+        "moment": "^2.29.1",
+        "morgan": "^1.10.0",
+        "nodemon": "^2.0.7",
+        "path": "^0.12.7"
+    },
+    "devDependencies": {
+        "node-fetch": "^2.6.1"
+    }
+}
